@@ -1,0 +1,17 @@
+{
+  "name": "peertest",
+  "version": "1.0.0",
+  "description": "testing simple-peer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo index.js:bundle.js"
+  },
+  "author": "lisa",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^10.0.3",
+    "getusermedia": "^2.0.1",
+    "simple-peer": "^8.1.0"
+  }
+}
